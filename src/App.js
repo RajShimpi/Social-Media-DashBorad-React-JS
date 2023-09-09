@@ -4,6 +4,7 @@ import Header from './components/Header.js'
 import TopCardList from './components/top-card-list.js'
 import Overview from './components/Overview.js'
 import Switch from './components/Switch.js'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     </Header>
     <TopCardList/>
     <Overview/>
+    <Footer/>
     </>
   );
 }
