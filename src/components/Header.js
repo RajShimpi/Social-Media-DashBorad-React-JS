@@ -8,7 +8,7 @@ export default function Header({children}) {
         <div className="wrapper">
             <div className="header-grid">
                 <div>
-                    <h1>Social Media DashBoard</h1>
+                    <h1>Social Media DashBoard | Raj Shimpi</h1>
                 <p className="header-total">Total Followers: 20</p>
                 </div>
                 {children}
