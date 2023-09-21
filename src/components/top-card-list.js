@@ -1,51 +1,3 @@
-// import React from 'react';
-// import Card from './Crad';
-// import '../Styles/top-card-list.css';
-// import {generate as id} from 'shortid'
-
-// export default function TopCardList() {
-//     const carListData=[
-//         {
-//             username:'@pepito',
-//             followers:'1486',
-//             todayFollowers:12,
-//             icon:'image/facebook.png',
-//             name:'facebook'
-//         },
-//         {
-//             username:'@luisa',
-//             followers:'28540',
-//             todayFollowers:20,
-//             icon:'image/twitter.png',
-//             name:'twitter'
-//         },
-//         {
-//             username:'@osvaldo',
-//             followers:'4550',
-//             todayFollowers:30,
-//             icon:'image/instagram24.png',
-//             name:'instagram'
-//         },
-//         {
-//             username:'@jose',
-//             followers:'4140',
-//             todayFollowers:-50,
-//             icon:'image/youtube.png',
-//             name:'youtube'
-//         },
-//     ]
-//   return (
-//     <section className="top-card">
-//         <div className="wrapper">
-//             <div className="grid">
-//                 {
-//                     carListData.map((cardData)=><Card key= {id}{...cardData}/>)
-//                 }
-//             </div>
-//         </div>
-//     </section>
-//   )
-// }
 import React from 'react';
 import Card from './Crad';
 import '../Styles/top-card-list.css';
@@ -54,30 +6,30 @@ import { generate as id } from 'shortid';
 export default function TopCardList() {
   const cardListData = [
     {
-      username: '@pepito',
-      followers: '1486',
+      username: '@RajShimpi',
+      followers: '623',
       todayFollowers: 12,
       icon: 'image/facebook.png',
       name: 'facebook',
     },
     {
-      username: '@luisa',
-      followers: '28540',
-      todayFollowers: 20,
+      username: '@RajShimpi',
+      followers: '23',
+      todayFollowers: 0,
       icon: 'image/twitter.png',
       name: 'twitter',
     },
     {
-      username: '@osvaldo',
-      followers: '4550',
-      todayFollowers: 30,
+      username: '@RajShimpi',
+      followers: '227',
+      todayFollowers: 8,
       icon: 'image/instagram24.png',
       name: 'instagram',
     },
     {
-      username: '@jose',
-      followers: '4140',
-      todayFollowers: -50,
+      username: '@RajShimpi',
+      followers: '3',
+      todayFollowers: 0,
       icon: 'image/youtube.png',
       name: 'youtube',
     },
@@ -88,7 +40,7 @@ export default function TopCardList() {
       <div className="wrapper">
         <div className="grid">
           {cardListData.map((cardData) => (
-            <Card key={id()} {...cardData} /> // Generate a unique key
+            <Card key={id()} {...cardData} />
           ))}
         </div>
       </div>
